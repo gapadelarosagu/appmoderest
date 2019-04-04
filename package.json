@@ -1,0 +1,20 @@
+{
+  "name": "appdemorest",
+  "version": "1.0.0",
+  "description": "Proyecto demo de web apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.21"
+  }
+}
